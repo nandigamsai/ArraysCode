@@ -22,9 +22,11 @@ public static void main(String[] args)
       //using collections
       List<String> str=new ArrayList();
       Collections.addAll(str, words);
+      System.out.println("Printing the words");
       for (String se:words)
       {
       System.out.println(se);
+      
       }
       
       
